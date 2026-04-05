@@ -34,6 +34,12 @@ docker run -it ubuntu bash
 
 🔹 13. Port mapping (VERY IMPORTANT 🔥)
 docker run -p 3000:3000 my-app
+PS C:\Users\Administrator> docker stop web_server
+web_server
+PS C:\Users\Administrator> docker rm web_server
+web_server
+PS C:\Users\Administrator> docker run -d -p 8080:80 --name web_server httpd
+d7c8fc7d31fae7c5d4b105b07e8f0e83e4c86bd8b7b9c0da458ff69a808370b5
 
 👉 Format:
 
